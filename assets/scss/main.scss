@@ -1,0 +1,42 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$baseColor: #4D79F0;
+$grayColor: #333742;
+$secondary: #555A65;
+
+$baseFont: Involve-Family;
+
+
+@font-face {
+  font-family: 'Unbounded-Medium';
+  src: url('public/fonts/Unbounded/static/Unbounded-Medium.ttf'),
+  url('public/fonts/Unbounded/static/Unbounded-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Unbounded-Bold';
+  src: url('public/fonts/Unbounded/static/Unbounded-Bold.ttf'),
+  url('public/fonts/Unbounded/static/Unbounded-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Unbounded';
+  src: url('public/fonts/Unbounded/static/Unbounded-Regular.ttf'),
+  url('public/fonts/Unbounded/static/Unbounded-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Unbounded', sans-serif;
+}
